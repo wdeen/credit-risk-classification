@@ -49,14 +49,14 @@ To better identify the creditworthiness of borrowers, a Logisitics Regression mo
 This analysis centres around evaluating the performance of the same classification model accurately predicting whether a loan is considered 'healthy' or 'high-risk'.
 
 The 'Lending' Dataset consists of 77536 datapoints with the following features:
-    - `loan_size` ($ Loan Amount)
-    - `interest_rate` (% Interest Rate)
-    - `borrower_income` ($ Borrower Income)
-    - `debt_to_income` (Debt-to-Income Ratio)
-    - `num_of_accounts` (No. Accounts Belonging to Borrower)
-    - `derogatory_marks` (Derogatory Marks)
-    - `total_debt` ($ Total Debt)
-    - `loan_status` (Status of Loan: `0` is 'Healthy', `1` is 'High-Risk')
+- `loan_size` ($ Loan Amount)
+- `interest_rate` (% Interest Rate)
+- `borrower_income` ($ Borrower Income)
+- `debt_to_income` (Debt-to-Income Ratio)
+- `num_of_accounts` (No. Accounts Belonging to Borrower)
+- `derogatory_marks` (Derogatory Marks)
+- `total_debt` ($ Total Debt)
+- `loan_status` (Status of Loan: `0` is 'Healthy', `1` is 'High-Risk')
 
 The `loan_status` feature was extracted and utilised as the 'class' (`y`) dataset, while what remains of the original dataset became the 'input' (`X`) dataset.
 From both the `X` and `y` datasets, 75% was split as training data, the remaining 25% became test data.

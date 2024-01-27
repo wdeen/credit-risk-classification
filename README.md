@@ -100,4 +100,4 @@ While favourable metrics in general, the discrepancy is likely due the uneven di
 
 Of 77536 datapoints, only 3.2% cases consists of high-risk loans. This explains why the model is able to predict healthy loans more accurately than high-risk loans.
 
-Although the current Logistics Regression Model performs well, I recommend the same model should be further trained or re-trained with a dataset where the distribution between healthy and high-risk loans are more even for it to predict the latter more accurately.
+Although the current Logistics Regression Model performs well, I recommend the same model should be trained with a dataset where the distribution between healthy and high-risk loans are more even for it to predict the latter more accurately.
